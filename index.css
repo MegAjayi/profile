@@ -129,13 +129,11 @@ strong {
 
 @media (max-width: 400px) {
   #main_section {
-    /* grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     gap: 24px;
-    margin: 0 auto; */
-    display: block;
+    margin: 0 auto;
   }
   .card {
-    /* grid-column: 1; */
-    display: block;
+    grid-column: 1;
   }
 }
